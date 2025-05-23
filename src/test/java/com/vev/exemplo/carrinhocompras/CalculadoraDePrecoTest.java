@@ -9,7 +9,6 @@ public class CalculadoraDePrecoTest {
     CadastroProduto cp = new CadastroProduto(new LeitorDeProdutos("produtos.dat"));
     CalculadoraDePreco calcPr = CalculadoraDePrecoFactory.freteSimplesDolarBuild();
 
-
     // Carrinho Vazio
     @Test
     void carrinhoVazioTest() {
@@ -41,8 +40,6 @@ public class CalculadoraDePrecoTest {
         carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(135), 5));
         carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(124), 10));
         carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(152), 10));
-
-
         
         assertEquals(107.8, calcPr.calculaCustoBasico(carrinho), 0.001);
         assertEquals(12.5, calcPr.calculaCustoAdicional(carrinho), 0.001);
@@ -53,17 +50,20 @@ public class CalculadoraDePrecoTest {
     @Test
     void carrinhoComMaisDeDezItensTest() {
         Carrinho carrinho = new Carrinho();
-        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(100), 10));
-        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(120), 10));
-        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(135), 5));
-        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(124), 10));
-        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(152), 10));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(100), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(120), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(135), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(124), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(152), 1));
         carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(105), 1));
-
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(160), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(165), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(170), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(175), 1));
+        carrinho.novoItem(new ItemDeCarrinho(cp.recuperaPorCodigo(180), 1));
         
-        assertEquals(109.0, calcPr.calculaCustoBasico(carrinho), 0.001);
-        assertEquals(12.5, calcPr.calculaCustoAdicional(carrinho), 0.001);
-        assertEquals(121.8, calcPr.calculaCustoFinal(carrinho), 0.001);
+        assertEquals(30.18, calcPr.calculaCustoBasico(carrinho), 0.001);
+        assertEquals(27.5, calcPr.calculaCustoAdicional(carrinho), 0.001);
+        assertEquals(57.68, calcPr.calculaCustoFinal(carrinho), 0.001);
     }
-
 }
