@@ -1,0 +1,6 @@
+com\vev\exemplo\bancodados\InvoiceDaoIntegrationTest.class
+com\vev\exemplo\bancodados\SqlIntegrationTestBase.class
+com\vev\exemplo\carrinhocompras\RegraDoDolarTest.class
+com\vev\exemplo\carrinhocompras\CadastroProdutosTest.class
+com\vev\exemplo\carrinhocompras\RegraDeFreteSimplesTest.class
+com\vev\exemplo\carrinhocompras\LeitorDeProdutosFAKE.class

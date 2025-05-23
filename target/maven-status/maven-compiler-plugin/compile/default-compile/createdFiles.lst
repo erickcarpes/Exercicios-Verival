@@ -1,0 +1,14 @@
+com\vev\exemplo\carrinhocompras\ItemDeCarrinho.class
+com\vev\exemplo\carrinhocompras\RegraDeFreteSimples.class
+com\vev\exemplo\carrinhocompras\RegraDoDolar.class
+com\vev\exemplo\carrinhocompras\CadastroProduto.class
+com\vev\exemplo\bancodados\InvoiceDao.class
+com\vev\exemplo\carrinhocompras\Produto.class
+com\vev\exemplo\carrinhocompras\IRegraDeCustoAdicional.class
+com\vev\exemplo\carrinhocompras\LeitorDeProdutos.class
+com\vev\exemplo\bancodados\Invoice.class
+com\vev\exemplo\carrinhocompras\CalculadoraDePreco.class
+com\vev\exemplo\carrinhocompras\ILeitorDeProdutos.class
+com\vev\exemplo\carrinhocompras\CalculadoraDePrecoFactory.class
+com\vev\exemplo\bancodados\DatabaseAccessException.class
+com\vev\exemplo\carrinhocompras\Carrinho.class
