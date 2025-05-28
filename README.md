@@ -26,10 +26,24 @@ Finalmente, precisamos testar a calculadora de preços usando um carrinho “rea
 
 Para isso, foram criados 4 novos métodos de teste:
 
+### carrinhoVazioTest:
 
+
+
+### carrinhoComUmItemTest
+
+
+
+### carrinhoComVariosItensTest()
+
+
+### carrinhoComMaisDeDezItensTest
+
+
+
+**Veja mais nas issues do projeto!**
 
 
 ## Contribuição
-
 Sinta-se à vontade para sugerir novos casos de teste ou melhorias.
 

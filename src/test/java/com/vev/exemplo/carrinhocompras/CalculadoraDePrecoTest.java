@@ -1,7 +1,6 @@
 package com.vev.exemplo.carrinhocompras;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
 
 public class CalculadoraDePrecoTest {
@@ -31,6 +30,7 @@ public class CalculadoraDePrecoTest {
         assertEquals(13.7, calcPr.calculaCustoFinal(carrinho), 0.001);
     }
 
+    
     // Carrinho com vários item, produto com várias unidades, 4 a 10 itens e sem preco em dolar
     @Test
     void carrinhoComVariosItensTest() {
@@ -45,6 +45,7 @@ public class CalculadoraDePrecoTest {
         assertEquals(12.5, calcPr.calculaCustoAdicional(carrinho), 0.001);
         assertEquals(120.3, calcPr.calculaCustoFinal(carrinho), 0.001);
     }
+
 
     // Preço de entrega com mais de 10 itens
     @Test
