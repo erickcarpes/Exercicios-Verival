@@ -40,7 +40,7 @@ Para isso, foram criados 4 novos métodos de teste:
     }
 ```
 
-### carrinhoComUmItemTest
+### carrinhoComUmItemTest:
 
 ```java
 // Carrinho com 1 item, produto com uma unidade, 1 a 3 itens e com preco em dolar
@@ -56,7 +56,7 @@ Para isso, foram criados 4 novos métodos de teste:
     }
 ```
 
-### carrinhoComVariosItensTest()
+### carrinhoComVariosItensTest:
 
 ```java
 // Carrinho com vários item, produto com várias unidades, 4 a 10 itens e sem preço em dólar
@@ -75,7 +75,7 @@ Para isso, foram criados 4 novos métodos de teste:
     }
 ```
 
-### carrinhoComMaisDeDezItensTest
+### carrinhoComMaisDeDezItensTest:
 
 ```java
 // Preço de entrega com mais de 10 itens
