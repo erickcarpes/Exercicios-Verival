@@ -1,22 +1,22 @@
-﻿# Exercício Verival 
+﻿# Exercício Verival 💥💥
 
 ## Descrição
 
 Este repositório contém um conjunto de casos de teste para a classe `CalculadoraDePreco`. O objetivo é validar o correto funcionamento dos métodos responsáveis pelo cálculo de preços em diferentes cenários.
 
-## Estrutura dos Testes
+## Estrutura dos Testes ☀️☀️ 
 
 - Testes de cálculo com valores padrão
 - Testes com descontos aplicados
 - Testes com taxas adicionais
 - Testes de tratamento de valores inválidos
 
-## Como Executar
+## Como Executar ☄️☄️
 
 1. Clone o repositório.
 2. Execute os testes utilizando 
 
-## Estratégia de Testes
+## Estratégia de Testes ♟️♟️
 
 O cálculo do custo básico irá necessitar de um carrinho qualquer para testar a soma dos preços unitários dos produtos multiplicados pela quantidade.
 
@@ -100,10 +100,10 @@ Para isso, foram criados 4 novos métodos de teste:
     }
 ```
 
-**Veja mais nas issues do projeto!**
+**Veja os motivos de cada um desses métodos nas issues do projeto!**
 
 
-## Contribuição 
+## Contribuição 🚦🚦
 
 Sinta-se à vontade para sugerir novos casos de teste ou melhorias.
 
