@@ -1,25 +1,35 @@
-﻿# Exercicios-Verival
+﻿# Exercício Verival 
 
 ## Descrição
-Este repositório contém exercícios práticos desenvolvidos para aprimorar conhecimentos em programação, lógica e resolução de problemas.
 
-## Estrutura do Projeto
-- Cada exercício está organizado em pastas separadas.
-- Os arquivos de código-fonte e instruções estão incluídos em cada diretório.
+Este repositório contém um conjunto de casos de teste para a classe `CalculadoraDePreco`. O objetivo é validar o correto funcionamento dos métodos responsáveis pelo cálculo de preços em diferentes cenários.
 
-## Como Utilizar
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/Exercicios-Verival.git
-    ```
-2. Navegue até o diretório do exercício desejado.
-3. Siga as instruções específicas de cada exercício para executar ou testar o código.
+## Estrutura dos Testes
 
-## Requisitos
--  
+- Testes de cálculo com valores padrão
+- Testes com descontos aplicados
+- Testes com taxas adicionais
+- Testes de tratamento de valores inválidos
+
+## Como Executar
+
+1. Clone o repositório.
+2. Execute os testes utilizando 
+
+## Estratégia de Testes
+
+O cálculo do custo básico irá necessitar de um carrinho qualquer para testar a soma dos preços unitários dos produtos multiplicados pela quantidade.
+
+Já o cálculo dos custos adicionais pode ser feito criando-se stubs para os custos adicionais que retornem valores conhecidos. Pode-se usar o mesmo carrinho que para o teste do custo básico porque este não irá influenciar nos testes e irá retornar um custo básico conhecido.
+
+Finalmente, precisamos testar a calculadora de preços usando um carrinho “real” e custos adicionais “reais” de maneira a verificar se funcionam todos em conjunto.
+
+Para isso, foram criados 4 novos métodos de teste:
+
+
+
 
 ## Contribuição
-Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou novos exercícios.
 
-## Licença
-Este projeto está licenciado sob a [escolha de licença, ex: MIT License](LICENSE).
+Sinta-se à vontade para sugerir novos casos de teste ou melhorias.
+
