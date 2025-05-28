@@ -1,6 +1,6 @@
 ﻿# Exercício Verival 💥💥
 
-## Descrição
+## Descrição 👩‍💻 👩‍💻
 
 Este repositório contém um conjunto de casos de teste para a classe `CalculadoraDePreco`. O objetivo é validar o correto funcionamento dos métodos responsáveis pelo cálculo de preços em diferentes cenários.
 
